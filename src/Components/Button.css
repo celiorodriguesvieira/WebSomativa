@@ -1,0 +1,26 @@
+.button {
+  border-radius: 4px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 2vh;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 400;
+  padding: 8px 16px;
+  margin: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, trasform;
+  transition-property: box-shadow, transform;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

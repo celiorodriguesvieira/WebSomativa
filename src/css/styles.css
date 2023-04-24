@@ -1,0 +1,17 @@
+:root {
+  --blue: #0071e3;
+  --white: #ffffff;
+  --green: #42b72a;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+/* Menu*/
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
